@@ -1,0 +1,11 @@
+div.ui-datepicker{
+ font-size:10px;
+  margin-top: -200px;
+  //z-index: 1000;
+}
+div.ui-datepicker-title{
+ font-size:12px;
+}
+div.ui-datepicker a {
+	font-size:10px;
+}

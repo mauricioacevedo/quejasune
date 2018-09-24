@@ -1,0 +1,36 @@
+<html>
+<head><title>Prueba de Window Modal</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>ModalBox Functional Test</title>
+
+        <script type="text/javascript" src="../../lib/prototype.js"></script>
+        <script type="text/javascript" src="../../lib/scriptaculous.js?load=effects"></script>
+
+        <script type="text/javascript" src="../../modalbox.js"></script>
+        <link rel="stylesheet" href="../../modalbox.css" type="text/css" />
+
+        <style type="text/css" media="screen">
+                html, body {
+                        width: 100%;
+                        height: 100%;
+                }
+                #MB_loading {
+                        font-size: 13px;
+                }
+                #errmsg {
+                        margin: 1em;
+                        padding: 1em;
+                        color: #C30;
+                        background-color: #FCC;
+                        border: 1px solid #F00;
+                }
+        </style>
+
+
+</head> 
+<body>
+
+prueba de modal windows....<a href="#" title="Por fin ijueputa!!!!" onclick="javascript:Modalbox.show('prueba.html', {title: this.title,height: 300 });return false;">shot me</a>
+<a href="#" title="close" onclick="javascript:Modalbox.hide();return false;">close me</a>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config-file>
+  <db-sape driver="org.postgresql.Driver" url="jdbc:postgresql://10.100.66.11/ipe" user="postgres" pwd="Animo" /> 
+  <!-- db-sape driver="org.postgresql.Driver" url="jdbc:postgresql://10.65.145.151/ipe" user="postgres" pwd="Animo" /-->
+  <db-gestor driver="org.postgresql.Driver" url="jdbc:postgresql://10.100.66.11/gestor" user="postgres" pwd="Animo" />
+  <!-- db-fenix driver="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@10.120.53.129:1521:fenixune" user="sivar" pwd="sivar" /-->	
+  <db-pluton driver="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@10.252.3.250:1526:uatoss" user="fenix" pwd="pluton" />
+  <db-fenix driver="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@10.120.53.129:1521:fenixune" user="sivar" pwd="sivar" />
+
+  <!-- db-fenix driver="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@10.100.76.12:1521:fnxuat1" user="sivar" pwd="sivar" /-->  
+  <db-quejas driver="org.postgresql.Driver" url="jdbc:postgresql://10.65.83.61/quejasune" user="postgres" pwd="Animo" />  
+  <!-- db-metro driver="org.postgresql.Driver" url="jdbc:postgresql://localhost/metroune" user="postgres" pwd="Animo" /-->
+  <info-gude ip="10.100.66.11" puerto="11112" />
+  
+</config-file>
